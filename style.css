@@ -1,0 +1,114 @@
+/* navbar style*/
+a.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(44, 180, 158);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*footer style*/
+.page-footer{
+    background-color: rgb(95, 81, 81);
+    margin-top: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-copyright{
+    color:white;
+    border-top: 5px solid rgb(61, 177, 157)
+}
+
+/* header style*/
+h3{
+    color: rgb(54, 175, 155);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+/* image style*/
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+/* font...style for text*/
+p{
+   font-family: Arial, Calibri, sans-serif;
+   font-size: large;
+   padding:10px;
+}
+
+/* body background*/
+body{
+    background-color: rgb(223, 199, 199);
+}
+.col-md-12{
+    background-color: rgb(236, 216, 216);
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+/* image border style*/
+.pic{
+    border: 3px solid rgb(91, 196, 178);
+}
+/* navbar style*/
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:35px;
+}
+
+.nav-item.dropdown.show {
+    background-color: rgb(219, 192, 192);
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+/* content style*/
+.content {
+    padding-top: 45px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+/* table text adjustments*/
+tr>th:nth-child(1),
+tr>th:nth-child(3),
+tr>th:nth-child(6),
+tr>th:nth-child(7),
+tr>th:nth-child(8),
+tr>th:nth-child(9),
+tr>th:nth-child(10),
+tr>td:nth-child(1),
+tr>td:nth-child(3),
+tr>td:nth-child(6),
+tr>td:nth-child(7),
+tr>td:nth-child(8),
+tr>td:nth-child(9),
+tr>td:nth-child(10) {
+    text-align: right;
+}
+
+/* small screen adjustments*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(83, 161, 148)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #eff1f3;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
